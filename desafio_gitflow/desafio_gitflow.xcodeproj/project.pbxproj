@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		972FE2F826FFB25B003DDCA7 /* Profissao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972FE2F626FFB25B003DDCA7 /* Profissao.swift */; };
 		972FE2F926FFB25B003DDCA7 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972FE2F726FFB25B003DDCA7 /* Pessoa.swift */; };
+		E0B712C126FFBAC800BE30E6 /* Engenharia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B712C026FFBAC800BE30E6 /* Engenharia.swift */; };
 		ED70BF5E26FE9C5000BA641C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BF5D26FE9C5000BA641C /* AppDelegate.swift */; };
 		ED70BF6026FE9C5000BA641C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BF5F26FE9C5000BA641C /* SceneDelegate.swift */; };
 		ED70BF6226FE9C5000BA641C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BF6126FE9C5000BA641C /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		972FE2F626FFB25B003DDCA7 /* Profissao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profissao.swift; sourceTree = "<group>"; };
 		972FE2F726FFB25B003DDCA7 /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		E0B712C026FFBAC800BE30E6 /* Engenharia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engenharia.swift; sourceTree = "<group>"; };
 		ED70BF5A26FE9C5000BA641C /* desafio_gitflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafio_gitflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED70BF5D26FE9C5000BA641C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED70BF5F26FE9C5000BA641C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				ED70BF6626FE9C5B00BA641C /* Assets.xcassets */,
 				ED70BF6826FE9C5B00BA641C /* LaunchScreen.storyboard */,
 				ED70BF6B26FE9C5B00BA641C /* Info.plist */,
+				E0B712C026FFBAC800BE30E6 /* Engenharia.swift */,
 			);
 			path = desafio_gitflow;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				972FE2F926FFB25B003DDCA7 /* Pessoa.swift in Sources */,
 				972FE2F826FFB25B003DDCA7 /* Profissao.swift in Sources */,
 				ED70BF6226FE9C5000BA641C /* ViewController.swift in Sources */,
+				E0B712C126FFBAC800BE30E6 /* Engenharia.swift in Sources */,
 				ED70BF5E26FE9C5000BA641C /* AppDelegate.swift in Sources */,
 				ED70BF6026FE9C5000BA641C /* SceneDelegate.swift in Sources */,
 			);

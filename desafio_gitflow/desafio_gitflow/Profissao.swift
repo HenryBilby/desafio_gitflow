@@ -8,15 +8,13 @@
 import Foundation
 
 class Profissao {
-    
     let descricao: String
     
     init(descricao:String) {
-        
         self.descricao = descricao
-}
-    func calculaSalario(valorHora: Double) -> Double {
-        
-        return valorHora * 220
+    }
+    
+    func calculaSalario(valorHora: Double, quantidadeHoras: Double) -> Double {
+        return valorHora * quantidadeHoras
     }
 }
