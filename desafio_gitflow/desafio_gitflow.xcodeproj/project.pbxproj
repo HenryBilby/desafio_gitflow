@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9721605F26FFA88F004A4EDC /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721605D26FFA88E004A4EDC /* Pessoa.swift */; };
+		9721606026FFA88F004A4EDC /* Profissao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721605E26FFA88E004A4EDC /* Profissao.swift */; };
 		ED70BF5E26FE9C5000BA641C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BF5D26FE9C5000BA641C /* AppDelegate.swift */; };
 		ED70BF6026FE9C5000BA641C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BF5F26FE9C5000BA641C /* SceneDelegate.swift */; };
 		ED70BF6226FE9C5000BA641C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BF6126FE9C5000BA641C /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9721605D26FFA88E004A4EDC /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		9721605E26FFA88E004A4EDC /* Profissao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profissao.swift; sourceTree = "<group>"; };
 		ED70BF5A26FE9C5000BA641C /* desafio_gitflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafio_gitflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED70BF5D26FE9C5000BA641C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED70BF5F26FE9C5000BA641C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				ED70BF5D26FE9C5000BA641C /* AppDelegate.swift */,
 				ED70BF5F26FE9C5000BA641C /* SceneDelegate.swift */,
+				9721605D26FFA88E004A4EDC /* Pessoa.swift */,
+				9721605E26FFA88E004A4EDC /* Profissao.swift */,
 				ED70BF6126FE9C5000BA641C /* ViewController.swift */,
 				ED70BF6326FE9C5000BA641C /* Main.storyboard */,
 				ED70BF6626FE9C5B00BA641C /* Assets.xcassets */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED70BF6226FE9C5000BA641C /* ViewController.swift in Sources */,
+				9721606026FFA88F004A4EDC /* Profissao.swift in Sources */,
 				ED70BF5E26FE9C5000BA641C /* AppDelegate.swift in Sources */,
+				9721605F26FFA88F004A4EDC /* Pessoa.swift in Sources */,
 				ED70BF6026FE9C5000BA641C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
