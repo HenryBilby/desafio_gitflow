@@ -16,6 +16,7 @@
 		ED70BF6526FE9C5000BA641C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED70BF6326FE9C5000BA641C /* Main.storyboard */; };
 		ED70BF6726FE9C5B00BA641C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED70BF6626FE9C5B00BA641C /* Assets.xcassets */; };
 		ED70BF6A26FE9C5B00BA641C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED70BF6826FE9C5B00BA641C /* LaunchScreen.storyboard */; };
+		EDD52BC02700EB0600D5F88A /* Jornalista.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD52BBF2700EB0600D5F88A /* Jornalista.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ED70BF6626FE9C5B00BA641C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED70BF6926FE9C5B00BA641C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED70BF6B26FE9C5B00BA641C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD52BBF2700EB0600D5F88A /* Jornalista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jornalista.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				ED70BF6826FE9C5B00BA641C /* LaunchScreen.storyboard */,
 				ED70BF6B26FE9C5B00BA641C /* Info.plist */,
 				E0B712C026FFBAC800BE30E6 /* Engenharia.swift */,
+				EDD52BBF2700EB0600D5F88A /* Jornalista.swift */,
 			);
 			path = desafio_gitflow;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				972FE2F926FFB25B003DDCA7 /* Pessoa.swift in Sources */,
+				EDD52BC02700EB0600D5F88A /* Jornalista.swift in Sources */,
 				972FE2F826FFB25B003DDCA7 /* Profissao.swift in Sources */,
 				ED70BF6226FE9C5000BA641C /* ViewController.swift in Sources */,
 				E0B712C126FFBAC800BE30E6 /* Engenharia.swift in Sources */,
