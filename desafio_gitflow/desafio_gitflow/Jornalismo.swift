@@ -7,15 +7,13 @@
 
 import UIKit
 
-let comissaoNoticia: Double = 750.00
+class Jornalismo: Profissao {
 
-class Jornalista: Profissao {
+    let comissaoNoticia: Double
     
-    var pessoas : [Pessoa]
-    
-    init(descricao: String, pessoas: [Pessoa]) {
-        self.pessoas = pessoas
-        super.init(descricao: descricao)
+    init(descricao: String, pessoas: [Pessoa], comissaoNoticia: Double) {
+        self.comissaoNoticia = comissaoNoticia
+        super.init(descricao: descricao, pessoas: pessoas)
     }
     
     override func calculaSalario(valorHora: Double, quantidadeHoras: Double) -> Double {
@@ -24,7 +22,5 @@ class Jornalista: Profissao {
         } else {
             return valorHora * quantidadeHoras
         }
-        
-        return 0.0
     }
 }
