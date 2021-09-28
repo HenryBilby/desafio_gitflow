@@ -20,9 +20,9 @@ class Medicina: Profissao {
         
         if valorHora <= 100 {
             return  valorHora * quantidadeHoras + bonusMensal
+        } else {
+            return valorHora * quantidadeHoras
         }
-        
-        return 0.0
     }
     
 }

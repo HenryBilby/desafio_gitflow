@@ -20,12 +20,10 @@ class Engenharia : Profissao {
         
         if quantidadeHoras == 6 {
             return 6*salarioMinimo;
-        }
-        
-        if quantidadeHoras == 8 {
+        } else if quantidadeHoras == 8 {
             return 9*salarioMinimo;
+        } else {
+            return valorHora*quantidadeHoras
         }
-        
-        return 0.0
     }
 }

@@ -17,11 +17,11 @@ class Profissao {
         self.pessoas = pessoas
     }
     
-    func calculaSalario(valorHora: Double, quantidadeHoras: Double) -> Double {
+    public func calculaSalario(valorHora: Double, quantidadeHoras: Double) -> Double {
         return valorHora * quantidadeHoras
     }
     
-    private func getProfissionalAleatorio() -> Pessoa {
+    public func getProfissionalAleatorio() -> Pessoa {
         if let pessoaAleatoria = self.pessoas.randomElement() {
             return pessoaAleatoria
          }
