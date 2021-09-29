@@ -24,26 +24,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.profissoes = service.getProfissoes()
     }
 
     @IBAction func sortearButtonAction(_ sender: Any) {
-        let profissao1 = sortearProfissao()
-        var profissao2 = sortearProfissao()
+        let profissao1 = service.sortearProfissao()
+        var profissao2 = service.sortearProfissao()
         
         while profissao1.descricao == profissao2.descricao {
-            profissao2 = sortearProfissao()
+            profissao2 = service.sortearProfissao()
         }
         
         setupLabelsProfissao1(profissao: profissao1)
         setupLabelsProfissao2(profissao: profissao2)
     }
     
-    private func sortearProfissao() -> Profissao {
-        return self.profissoes.randomElement()!
-    }
-
+    
     private func setupLabelsProfissao1(profissao: Profissao) {
         let profissionalAleatorio = profissao.getProfissionalAleatorio()
         

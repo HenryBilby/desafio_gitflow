@@ -9,14 +9,33 @@ import Foundation
 
 class Service {
     
-    public func getProfissoes() -> [Profissao] {
+    public func sortearProfissao() -> Profissao {
+        let profissoes = getProfissoes()
+        return profissoes.randomElement()!
+    }
+
+    private func getProfissoes() -> [Profissao] {
         let engenharia = getEngenharia()
         let medicina = getMedicina()
         let jornalismo = getJornalismo()
+        let farmacia = getFarmacia()
         
-        let profissoes = [engenharia, medicina, jornalismo]
+        let profissoes = [engenharia, medicina, jornalismo, farmacia]
         
         return profissoes
+    }
+    
+    private func getFarmacia() -> Farmacia {
+        let pessoasFarmaceuticas = getPessoasFarmaceuticas()
+        return Farmacia(descricao: "Farmacia", pessoas: pessoasFarmaceuticas, pisoSalarial: 3000.00)
+    }
+    
+    private func getPessoasFarmaceuticas() -> [Pessoa] {
+        let pessoasFarmaceuticas : [Pessoa] = [Pessoa(nome: "Joao Farmacia"),
+                                                  Pessoa(nome: "Maria Farmacia"),
+                                                  Pessoa(nome: "José Farmacia"),
+                                                  Pessoa(nome: "Marta Farmacia")]
+        return pessoasFarmaceuticas
     }
     
     private func getEngenharia() -> Engenharia {
