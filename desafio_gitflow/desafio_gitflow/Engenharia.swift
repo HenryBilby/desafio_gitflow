@@ -7,27 +7,23 @@
 
 import Foundation
 
-let salarioMinimo : Double = 1100.00
-
 class Engenharia : Profissao {
     
-    let pessoas : [Pessoa]
+    let salarioMinimo : Double
 
-    init(descricao: String, pessoas: [Pessoa]) {
-        self.pessoas = pessoas
-        super.init(descricao: descricao)
+    init(descricao: String, pessoas: [Pessoa], salarioMinimo : Double) {
+        self.salarioMinimo = salarioMinimo
+        super.init(descricao: descricao, pessoas: pessoas)
     }
     
     override func calculaSalario(valorHora: Double, quantidadeHoras: Double) -> Double {
         
-        if quantidadeHoras == 6 {
+        if quantidadeHoras == 220 {
             return 6*salarioMinimo;
-        }
-        
-        if quantidadeHoras == 8 {
+        } else if quantidadeHoras == 180 {
             return 9*salarioMinimo;
+        } else {
+            return valorHora*quantidadeHoras
         }
-        
-        return 0.0
     }
 }

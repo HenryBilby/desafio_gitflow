@@ -8,13 +8,24 @@
 import Foundation
 
 class Profissao {
-    let descricao: String
     
-    init(descricao:String) {
+    let descricao: String
+    var pessoas : [Pessoa]
+    
+    init(descricao:String, pessoas : [Pessoa]) {
         self.descricao = descricao
+        self.pessoas = pessoas
     }
     
-    func calculaSalario(valorHora: Double, quantidadeHoras: Double) -> Double {
+    public func calculaSalario(valorHora: Double, quantidadeHoras: Double) -> Double {
         return valorHora * quantidadeHoras
+    }
+    
+    public func getProfissionalAleatorio() -> Pessoa {
+        if let pessoaAleatoria = self.pessoas.randomElement() {
+            return pessoaAleatoria
+         }
+
+         return Pessoa(nome: "")
     }
 }
